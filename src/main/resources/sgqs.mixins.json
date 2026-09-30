@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.sgqs.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SimpleOptionAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

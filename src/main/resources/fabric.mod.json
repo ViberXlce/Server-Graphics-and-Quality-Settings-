@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "sgqs",
+  "version": "${version}",
+  "name": "Server Graphics and Quality Settings",
+  "description": "Press P to open a full performance, graphics, audio, HUD and streamer settings screen.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.sgqs.SgqsClient"]
+  },
+  "mixins": [
+    { "config": "sgqs.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
